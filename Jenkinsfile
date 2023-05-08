@@ -8,7 +8,7 @@ pipeline{
           name: mypod
           namespace: default
         spec:
-          serviceAccount: jenkins-admin
+          serviceAccount: jenkins-agent-sa
           containers:
           - name: build-agent
             image: careem785/jenkins-build-agent:2.0
