@@ -1,2 +1,2 @@
-# kops-deploy-pod
-deploy helm charts from jfrog to kubernetes
+# edweb-login-deployment
+deployment of login app via helm
